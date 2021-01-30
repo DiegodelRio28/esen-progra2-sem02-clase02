@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>todo list webapp</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>todo list webapp</h1>
+
+    <div id="myDIV" class="header">
+        <h2>todo list</h2>
+        <input type="text" id="myInput" placeholder="task to do...">
+        <span onclick="newElement()" class="addBtn">add</span>
+    </div>
+
+    <ul id="myUL">
+        <li>go to the gym</li>
+        <li class="checked">pay my bills</li>
+        <li>lavar platos</li>
+    </ul>
+
+    <script src="script.js"></script>
 </body>
 </html>
